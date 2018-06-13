@@ -3,7 +3,7 @@ package com.alexander;
 import java.util.Scanner;
 
 public class Zeros {
-    private int calculating(char varArray[]){
+    public int calculating(char varArray[]){
         int temp = 0;
         int max_zero = 0;
         System.out.println("Оно состоит из: " + varArray.length + " цифр.");
