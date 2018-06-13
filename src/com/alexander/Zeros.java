@@ -7,6 +7,12 @@ public class Zeros {
         System.out.println("Привет. Вот программа на Java");
         System.out.print("Введите тестовое число: ");
         Scanner in = new Scanner(System.in);
-        System.out.println(in.next());
+        String num = in.next();
+        for (Character temp: num.toCharArray()
+             ) {
+            System.out.println("Цифра ---> " + temp);
+
+        }
+        System.out.println("Вы ввели цифру - " + num);
     }
 }
